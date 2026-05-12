@@ -1,8 +1,14 @@
-function ActionButton({ label, onClick }: { label: string, onClick: () => void }) {
+type ActionButtonProps = {
+    label: string;
+    onClick: () => void;
+}
+
+function ActionButton({ label, onClick }: ActionButtonProps) {
     return (
-        <button className="action-button" onClick={onClick}>
+        <button type="button" className="action-button" onClick={onClick}>
             {label}
         </button>
     )
 }
+
 export default ActionButton
