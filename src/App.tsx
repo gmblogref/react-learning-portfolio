@@ -2,6 +2,7 @@ import './App.css'
 import PageHeader from './components/PageHeader'
 import CollectionPractice from './sections/CollectionPractice'
 import ComponentFundamentals from './sections/ComponentFundamentals'
+import FormPractice from './sections/FormPractice/FormPractice'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <PageHeader />
       <ComponentFundamentals />
       <CollectionPractice />
+      <FormPractice />
     </main>
   )
 }
