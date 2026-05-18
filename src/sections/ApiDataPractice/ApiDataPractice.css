@@ -1,0 +1,30 @@
+.api-data-practice {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.api-data-practice__header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.api-data-practice__button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.api-data-practice__button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.api-data-practice__message {
+    font-weight: 600;
+}
+
+.api-data-practice__error {
+    color: #ff6b6b;
+}

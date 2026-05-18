@@ -1,0 +1,14 @@
+.post-card {
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 0.75rem;
+}
+
+.post-card__title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.post-card__body {
+    margin: 0;
+}
