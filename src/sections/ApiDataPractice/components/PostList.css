@@ -1,0 +1,8 @@
+.post-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.post-list__empty {
+    font-style: italic;
+}
